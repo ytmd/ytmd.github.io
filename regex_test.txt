@@ -1,0 +1,8 @@
+00:00->00:54 Intro
+	00:00 motive 1
+	00:15 motive 2
+	00:34 motive 1
+00:54 Exposition
+	01:54 Theme 1
+	02:11 Bridge (modulation)
+	02:23 Theme 2

@@ -1,0 +1,90 @@
+body {
+	background-color: #1c1d18;
+	font-family: Cambria, Helvetica, Arial, sans-serif;
+	margin: 0px;
+}
+
+.time_tag {
+	background-color: #424242;
+	color: #f8f8f2;
+}
+
+.time_tag:hover {
+	background-color: #c60000;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.playback_comment {
+	background-color: #313131;
+	text-align: center;
+	color: #f8f8f2;
+	font-weight: bold;
+}
+
+.playback_comment:hover {
+	font-weight: bolder;
+}
+
+#timeline {
+	width: 500px;
+	height: 60px;
+	border-color: red;
+	background-color: #0e0e0e;
+}
+
+.timelineElement {
+	color: white;
+	font-size: small;
+	border: solid;
+	border-color: #4a4a4a;
+	border-width: 1px;
+	background-color: #1c1d18;
+	box-sizing: border-box;
+	text-align: center;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-wrap: anywhere;
+}
+
+.timelinePlayhead {
+	position: absolute;
+	background-color: red;
+	width: 3px;
+}
+
+#main_input {
+	width: 640px;
+	height: 666px
+}
+
+#playback_controls{
+	width: 640px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width:100%;
+	align-items: center;
+}
+
+p {
+	color: white;
+}
+
+.tooltip {
+	background-color: #1c1d18;
+	color: white;
+	border: solid;
+	border-color: #565656;
+	border-width: 2px;
+	padding: 10px;
+	font-weight: bold;
+textarea {
+	tab-size: 4;
+	-moz-tab-size: 4;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Youtube Markdown</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <meta charset="ISO-8859-1">
+</head>
+
+<body onload="setupIFrameAPI()">
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+	<div class="flex-container">
+		<div id="timeline">
+			<span id="playhead" class='timelinePlayhead'></span>
+		</div>
+
+		<!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+		<div id="ytplayer"></div>
+
+		<div id="playback_controls"></div>
+
+		<textarea id='main_input'></textarea>
+
+		<p>Enter video URL or ID:</p>
+		<input type="text" id="video_input"></input>
+	</div>
+
+<!-- Libs -->
+<script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
+
+<!-- Utilities -->
+<script src='utils.js'></script>
+
+<!-- Classes -->
+<script src='classTimeline.js'></script>
+<script src='classTimeTag.js'></script>
+
+<!-- Core -->
+<script src='ytmd.js'></script>
+<script src='youtube-iframe-api.js'></script>
+
+</body>
+
+</html>
